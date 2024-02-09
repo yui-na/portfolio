@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:image" content="">
+  <link rel="stylesheet" href="css/common.css">
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@600&display=swap" rel="stylesheet">
+  <title>yui portfolio</title>
+</head>
+<body>
+  <header class="l-header">
+    <div class="l-wrapper">
+      <h1 class="l-header-title" lang="en"><a href="index.html">Yui Portfolio</a></h1>
+
+      <nav class="l-header-nav" role="navigation">
+        <h2 class="screen-reader-text">サイト内メニュー</h2>
+        <button type="button" class="js-button-hamburger button-hamburger" 　aria-controls="global-nav" aria-expanded="false">
+          <span class="hamburger">
+            <span class="screen-reader-text">メニューを開閉する</span>
+          </span>
+        </button>
+        <ul id="global-nav" class="l-global-nav" lang="en">
+          <li><a href="index.html">Top</a></li>
+          <li><a href="works/index.html">Works</a></li>
+          <li><a href="about/index.html">About</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="l-main" role="main">
+    <div class="hero hero-home">
+      <picture class="hero-image">
+        <source srcset="images/top/hero-top-sp.jpg 1x, images/top/hero-top-sp@2x.jpg 2x" media="(max-width: 767px)">
+        <source srcset="images/top/hero-top-tab.jpg 1x, images/top/hero-top-tab@2x.jpg 2x" media="(max-width: 1023px)">
+        <img src="images/top/hero-top-pc.jpg" srcset="images/top/hero-top-pc.jpg 1x, images/top/hero-top-pc@2x.jpg 2x" alt="大通り公園にあるテレビ塔と噴水">
+      </picture>
+
+      <div class="hero-body">
+        <div class="hero-copy">
+          <p><span>ユーザーが</span></p>
+          <p><span>「見やすく使いやすいデザイン」</span></p>
+          <p><span>を追求していきたい</span></p>
+        </div>
+      </div>
+    </div>
+
+    <section class="l-section l-works-wrapper">
+      <h2 class="heading-primary" lang="en">Works</h2>
+      <div class="box">
+        <section class="box-item">
+          <div class="box-text">
+            <h3>PianoRoom溝の口様</h3>
+            <p>デザイン/コーディング</p>
+          </div>
+          <figure>
+            <img src="images/common/pianoroom.jpg" srcset="images/common/pianoroom.jpg 1x, images/common/pianoroom@2x.jpg 2x" alt="ピアノ教室のサイト">
+          </figure>
+        </section>
+        <!-- /.box-item -->
+
+
+        <section class="box-item">
+          <div class="box-text">
+            <h3>Yui Portforio</h3>
+            <p>デザイン/コーディング</p>
+          </div>
+          <figure>
+            <img src="images/common/portforio.jpg" srcset="images/common/portforio.jpg 1x, images/common/portforio@2x.jpg 2x" alt="ポートフォリオサイト">
+          </figure>
+        </section>
+        <!-- /.box-item -->
+
+        <section class="box-item">
+          <div class="box-text">
+            <h3>株式会社CHRONOX様</h3>
+            <p>デザイン</p>
+          </div>
+          <figure>
+            <img src="images/common/chronox.jpg" srcset="images/common/chronox.jpg 1x, images/common/chronox@2x.jpg 2x" alt="株式会社クロノクスのサイト">
+          </figure>
+        </section>
+        <!-- /.box-item -->
+
+        <section class="box-item">
+          <div class="box-text">
+            <h3>FIRST AIRLINES様</h3>
+            <p>バナー制作</p>
+          </div>
+          <figure>
+            <img src="images/common/first-airlines.jpg" srcset="images/common/first-airlines.jpg 1x, images/common/first-airlines@2x.jpg 2x" alt="ファーストエアラインズのサイト">
+          </figure>
+        </section>
+        <!-- /.box-item -->
+      </div>
+      <!-- /.box -->
+
+      <p class="l-section-button"><a href="works/index.html" class="button button-primary">もっと見る</a></p>
+    </section>
+    <div class="about">
+      <div class="l-wrapper">
+        <section class="l-section">
+          <h2 class="heading-primary" lang="en">About</h2>
+
+
+          <div class="media">
+            <div class="media-body media-item">
+              <h3>Yui Kunibe</h3>
+
+              <p>1990年札幌で生まれ、神奈川県で育ちました。</p>
+              <p>大学時代には色彩心理学のゼミに入り、色彩検定２級を取得しました。</p>
+              <p>
+                新卒では、人の幸せに関わる仕事がしたいと、不動産メーカーに就職しました。
+                パソコンを使う仕事が楽しくて、ずっと好きな「色」と「パソコン」を使った仕事をして、
+                手に職をつけたいと考え、ウェブデザイナーを目指すことを決意しました。
+              </p>
+
+            </div>
+
+            <figure class="media-item">
+              <img src="images/common/about.png" alt="作者顔写真">
+              <!-- <img src="images/common/about.png" srcset="images/common/about.png 1x, images/common/about@2x.png 2x" alt="作者顔写真"> -->
+            </figure>
+          </div>
+          <p class="l-section-button"><a href="about/index.html" class="button button-primary">もっと見る</a></p>
+        </section>
+      </div>
+    </div>
+    <!-- /.about -->
+
+    <div class="l-wrapper">
+      <section class="l-section">
+        <div class="contact ">
+          <h2 id="contact" class="heading-primary" lang="en">Contact</h2>
+          <p class="p-center">お問い合わせは、Instagramよりお願いいたします。ご相談などお気軽にご連絡ください。</p>
+          <a href="https://www.instagram.com/webdesign_yui/"><img src="images/top/instagram.png" alt="インスタグラムロゴマーク"></a>
+        </div>
+      </section>
+    </div>
+
+
+  </main>
+
+  <footer class="footer">
+    <div class="l-wrapper">
+      <p><small>　&copy; Yui Portforio</small></p>
+    </div>
+  </footer>
+  <script src="js/lib/jquery-1.12.1.min.js"></script>
+  <script src="js/common.js"></script>
+</body>
+</html>
